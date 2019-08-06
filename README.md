@@ -26,26 +26,25 @@ Go application using Machine learning through **facebox**, a [machinebox.io](mac
 
 Requirements
 
-- [ ] 🧠 Development
-- [ ] 🧠 Host Facebox on Google Cloud.
-- [ ] 🧠 Create a web client form to upload images
-- [ ] 🧠 Create a web server to receive images from the client
-- [ ] 🧠 Check and Teach images to Facebox
-- [ ] 🧠 Convert and store images in Base64 on Google Storage
-- [ ] 🧠 Add a programmable action interface
-- [ ] 🧠 Add a general config interface
-- [ ] 🧠 Find web hosting
-  - [ ] 🧠 Firebase : would mean dropping Go SPA web server solution
-  - [ ] 🧠 Google AppEngine : Costs ?
-- [ ] 🧠 Find cheaper facebox hosting
+- :ok_hand: Host Facebox on Google Cloud.
+- :ok_hand: Create a web client form to upload images
+- :ok_hand: Create a web server to receive images from the client
+- :point_right: Check and Teach images to Facebox
+- :point_right: Convert and store images in Base64 on Google Storage
+- :point_right: Add a programmable action interface
+- :point_right: Add a general config interface
+- :point_right: Find web hosting
+  - :point_right: Firebase : would mean dropping Go SPA web server solution
+  - :point_right: Google AppEngine : Costs ?
+- :point_right: Find cheaper facebox hosting
 
 ### Machine
 
-- [ ] 🧠 Create a program to recognize taught faces through webcam
-- [ ] 🧠 Use google speech api to greet user when a face is matched
-- [ ] 🧠 Program answers depending on user response to greeting
-- [ ] 🧠 Program actions depending on user response
-- [ ] 🧠 Use remote config to activate actions and industrialize process
+- :ok_hand: Create a program to recognize taught faces through webcam
+- :ok_hand: Use google speech api to greet user when a face is matched
+- :ok_hand: Program answers depending on user response to greeting
+- :point_right: Program actions depending on user response
+- :point_right: Use remote config to activate actions and industrialize process
 
 ## Contributing
 
