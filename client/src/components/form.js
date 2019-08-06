@@ -34,6 +34,7 @@ const useStyles = makeStyles(theme => ({
   }
 }));
 
+// To Facebox default face object
 const formatImage = (image, name) => ({
   name,
   id: `${name}.jpg`,
