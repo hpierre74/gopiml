@@ -59,6 +59,20 @@ export default function SignIn() {
     return setImage(formatImage(image, name));
   };
 
+  const handleSubmit = async e => {
+    e.preventDefault();
+    try {
+      if (!image) {
+        return;
+      }
+
+      const res = await fetch("/upload", { method: "POST", body: image });
+      console.log(res);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
   const handleTextChange = e => setName(e.target.value);
 
   console.log(preview, image);
@@ -73,11 +87,7 @@ export default function SignIn() {
         <Typography component="h1" variant="h5">
           Sign in
         </Typography>
-        <form
-          className={classes.form}
-          onSubmit={!!image ? () => alert("ok") : () => alert("not ok")}
-          noValidate
-        >
+        <form className={classes.form} onSubmit={handleSubmit} noValidate>
           <TextField
             variant="outlined"
             margin="normal"
